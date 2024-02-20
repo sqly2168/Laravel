@@ -20,7 +20,12 @@ Route::get('/', function () {
 Route::get('/helolaravel', function () {
     $név = 'Áron';
     return view('nézet', [
-        'nev' => $név
-        
+        'nev' => "<script>alert('meg vagy támadva')<\script>    "
+    ]);
+});
+
+Route::get('/request', function () {
+    return view('request', [
+        'title' => request('title')
     ]);
 });
