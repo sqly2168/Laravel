@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>SZIAAAAAAAA NIGFEGR</h1>
+    <h2>{{$név}}</h2>
 </body>
 </html>
