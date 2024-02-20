@@ -21,5 +21,6 @@ Route::get('/helolaravel', function () {
     $név = 'Áron';
     return view('nézet', [
         'nev' => $név
+        
     ]);
 });
