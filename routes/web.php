@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/asd', function () {
+Route::get('/helolaravel', function () {
     return 'helosznius :)';
 });
